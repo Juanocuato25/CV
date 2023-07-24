@@ -1,0 +1,78 @@
+.header-pic-profile {
+    width: 35%;
+    order: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.header-pic-profile img {
+    border-radius: 90px;
+    margin: 20px;
+    width: 80%;
+}
+
+
+.header-title h1{
+    font-size: 2.7rem;
+}
+
+.header-title h4{
+    font-size: 1.9rem;
+}
+
+.header-title{
+    width: 55%;
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.right-ul-father{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.li-contact{
+    order: 1;
+    width: 100%;
+}
+
+.li-education{
+    order: 2;
+    width: 45%;
+    flex-grow: 1;
+}
+
+.li-lenguage{
+    order: 3;
+    width: 45%;
+}
+
+.left-ul-father{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.li-hard-skill{
+order: 1;
+width: 30%;
+}
+
+.li-soft-skill{
+order: 2;
+width: 30%;
+}
+
+.li-experience{
+order: 4;
+width: 100%;
+}
+
+.li-hobbies{
+order: 3;
+width: 30%;
+}

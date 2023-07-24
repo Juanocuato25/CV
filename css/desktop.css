@@ -1,0 +1,88 @@
+
+.header-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-pic-profile{
+    order: 1;
+    height: 100%;
+    flex-grow: 1;
+}
+
+.header-pic-profile img {
+    border-radius: 90px;
+    margin: 20px;
+    width: 50%;
+}
+
+.header-title h1{
+    font-size: 2.7rem;
+}
+
+.header-title h4{
+    font-size: 1.9rem;
+}
+
+.header-title{
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.header-about-me{
+    width: 25%;
+}
+
+.main-container{
+    display: flex;
+}
+
+.header-about-me{
+    flex-grow: 1;
+}
+
+.main-aside-right{
+    width: 45%;
+}
+
+.main-aside-left{
+    width: 45%;
+    flex-grow: 1;
+}
+
+.left-ul-father{
+    display: flex;
+    flex-direction: column;
+}
+
+.left-ul-father li{
+    width: 80%;
+}
+
+.right-ul-father{
+    display: flex;
+    flex-direction: column;
+}
+
+.right-ul-father li{
+    width: 90%;
+}
+
+.li-education{
+    order: 1;
+}
+
+.li-contact{
+    order: 3;
+}
+
+.li-experience{
+    order: 3;
+}
+
+
+
+
